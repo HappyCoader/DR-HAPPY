@@ -183,7 +183,15 @@ html::-webkit-scrollbar{
         margin-bottom: 35px;
     }
 }
-
+@media (max-width:500px){
+	.top-header{
+	padding:40px 0;
+		
+	}
+	html{
+		font-size:0.8rem;
+	}
+}
 /* ================================================= */
 /* -------------- Banner Header CSS ---------------- */
 /* ================================================= */
